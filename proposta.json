@@ -1,0 +1,301 @@
+{
+  "slug": "victoria-zucki",
+  "negocio": {
+    "nome": "Victória Zucki Estética Avançada",
+    "logo": "brand/logo.png",
+    "whatsapp": "5547999464430",
+    "telefone": "(47) 99946-4430",
+    "funcionamento": {
+      "seg": "10:00-19:00",
+      "ter": "10:00-19:00",
+      "qua": "10:00-19:00",
+      "qui": "10:00-19:00",
+      "sex": "10:00-19:00",
+      "sab": null,
+      "dom": null
+    },
+    "unidades": [
+      {
+        "bairro": "Centro · Balneário Camboriú",
+        "endereco": "Rua 2028, 125, sala 4 – Centro, Balneário Camboriú – SC, 88330-486",
+        "telefone": "(47) 99946-4430",
+        "horario": "Segunda a sexta, das 10h às 19h"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#5B7339",
+    "brand2": "#435629",
+    "ink": "#2A2A22",
+    "bg": "#FBF8F4",
+    "pulse": "#B87D72",
+    "radius": "18px",
+    "registro": "editorial",
+    "fontDisplay": "Cormorant Garamond",
+    "fontBody": "Jost",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          {
+            "texto": "Tratamentos",
+            "href": "#tratamentos"
+          },
+          {
+            "texto": "O cuidado",
+            "href": "#cuidado"
+          },
+          {
+            "texto": "Dúvidas",
+            "href": "#faq"
+          },
+          {
+            "texto": "Onde fica",
+            "href": "#unidades"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "moldura",
+      "data": {
+        "eyebrow": "Estética facial · Centro de Balneário Camboriú",
+        "h1": "Toxina e preenchimento, sem pressa",
+        "lead": "A biomédica Victória Zucki avalia e aplica numa clínica pequena na Rua 2028, e acompanha cada paciente nos dias depois do procedimento.",
+        "cta": "Conversar pelo WhatsApp",
+        "ctaSecundario": "Ver tratamentos",
+        "ctaSecundarioHref": "#tratamentos",
+        "imagem": "midia/f01.jpg",
+        "imagemAlt": "Recepção da clínica Victória Zucki, com teto de flores secas e arco iluminado com a marca",
+        "tarja": [
+          "5,0 no Google, 167 avaliações",
+          "Biomédica · CRBM 4031",
+          "Acompanhamento depois do procedimento",
+          "Segunda a sexta, das 10h às 19h"
+        ]
+      }
+    },
+    {
+      "id": "fita",
+      "variant": "inclinada",
+      "data": {
+        "itens": [
+          "Toxina botulínica",
+          "Preenchimento labial",
+          "Limpeza de pele",
+          "Avaliação facial",
+          "Acompanhamento pós-procedimento"
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "pagina",
+      "data": {
+        "eyebrow": "A clínica",
+        "texto": [
+          "Quem chega à Rua 2028 entra numa recepção com flores secas no teto, poltronas de palha e luz natural. É de propósito: procedimento no rosto pede um lugar onde dê para respirar antes de começar.",
+          "A Victória faz a avaliação, aplica e manda mensagem nos dias seguintes para saber como a paciente está."
+        ],
+        "imagem": "midia/f04.jpg",
+        "imagemAlt": "Entrada da clínica com arco iluminado, poltronas de palha e plantas"
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "Tratamentos",
+        "lead": "Cada indicação sai de uma avaliação do rosto. Estes são os procedimentos que as pacientes mais procuram na clínica.",
+        "itens": [
+          {
+            "nome": "Toxina botulínica",
+            "descricao": "Suaviza as linhas de expressão da testa, da glabela e dos olhos, com dose pensada para manter o rosto com movimento.",
+            "icone": "seringa"
+          },
+          {
+            "nome": "Preenchimento labial",
+            "descricao": "Ácido hialurônico para dar contorno, hidratação ou volume aos lábios, no ponto que a paciente escolheu na avaliação.",
+            "icone": "gota",
+            "imagem": "midia/f03.jpg"
+          },
+          {
+            "nome": "Limpeza de pele",
+            "descricao": "Higienização, extração e finalização calmante, feita pela Luz numa sala só para isso.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Avaliação facial",
+            "descricao": "Conversa e análise do rosto antes de qualquer agulha: o que faz sentido agora, o que pode esperar e quanto tempo o resultado costuma durar.",
+            "icone": "rosto"
+          }
+        ]
+      }
+    },
+    {
+      "custom": "blocos/cuidado.html"
+    },
+    {
+      "id": "numeros",
+      "variant": "vivo",
+      "data": {
+        "titulo": "Na ficha do Google",
+        "itens": [
+          {
+            "valor": "5,0",
+            "rotulo": "nota média das pacientes"
+          },
+          {
+            "valor": "167",
+            "rotulo": "avaliações publicadas",
+            "contar": 167
+          },
+          {
+            "valor": "10h–19h",
+            "rotulo": "de segunda a sexta"
+          }
+        ]
+      }
+    },
+    {
+      "id": "conversa",
+      "variant": "celular",
+      "data": {
+        "eyebrow": "Pelo WhatsApp",
+        "titulo": "Tirar a primeira dúvida leva uma conversa curta",
+        "lead": "Quem nunca fez preenchimento costuma perguntar a mesma coisa. A resposta vem no mesmo número que está na ficha do Google.",
+        "cta": "Mandar minha dúvida",
+        "contato": "Victória Zucki",
+        "mensagens": [
+          {
+            "de": "paciente",
+            "texto": "Oi! Nunca fiz preenchimento labial. Fica muito marcado logo depois?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Oi! Pode inchar um pouco nos primeiros dias, é normal. Na avaliação eu te mostro o volume antes de aplicar."
+          },
+          {
+            "de": "paciente",
+            "texto": "E se eu tiver dúvida depois?"
+          },
+          {
+            "de": "clinica",
+            "texto": "Eu mesma te chamo nos dias seguintes. Quer marcar a avaliação para quinta às 16h?"
+          }
+        ]
+      }
+    },
+    {
+      "id": "galeria",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O espaço",
+        "lead": "Uma sala de espera clara, uma sala de procedimento e uma bancada organizada à vista.",
+        "itens": [
+          {
+            "imagem": "midia/f09.jpg",
+            "legenda": "Sala de espera com poltronas de palha e luminárias"
+          },
+          {
+            "imagem": "midia/f01.jpg",
+            "legenda": "Recepção com o teto de flores secas"
+          },
+          {
+            "imagem": "midia/f05.jpg",
+            "legenda": "Estante com plantas e objetos da casa"
+          },
+          {
+            "imagem": "midia/f03.jpg",
+            "legenda": "Bancada de preparo da sala de procedimento"
+          }
+        ]
+      }
+    },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem já passou pela cadeira",
+        "itens": [
+          {
+            "texto": "Ela é muito atenciosa, cuidadosa e delicada em cada detalhe. Sempre se preocupa em fazer tudo da forma mais confortável possível.",
+            "autor": "Lúrya",
+            "contexto": "Preenchimento labial · Google"
+          },
+          {
+            "texto": "Já fiz preenchimento labial outras vezes e, sem dúvidas, com ela foi a experiência mais tranquila e indolor que já tive.",
+            "autor": "Mariana",
+            "contexto": "Preenchimento labial · Google"
+          },
+          {
+            "texto": "Percebe o cuidado em todos os detalhes: o olhar clínico da Vic, a higiene do ambiente, a qualidade dos produtos.",
+            "autor": "Fernanda",
+            "contexto": "Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "acordeao",
+      "data": {
+        "titulo": "Dúvidas comuns",
+        "itens": [
+          {
+            "p": "Quanto tempo dura o efeito da toxina botulínica?",
+            "r": "Em geral, entre quatro e seis meses. O efeito começa a aparecer em poucos dias, e a avaliação de retorno costuma acontecer por volta de duas semanas depois da aplicação."
+          },
+          {
+            "p": "O preenchimento labial dói?",
+            "r": "A região é sensível, por isso o procedimento é feito com cuidado para o conforto e no ritmo da paciente. Nas avaliações da clínica, pacientes que já tinham feito em outro lugar contam que aqui foi mais tranquilo."
+          },
+          {
+            "p": "Posso trabalhar no mesmo dia?",
+            "r": "Na maioria dos casos, sim. Pode haver inchaço ou pequenas marcas nos primeiros dias, e a Victória passa as orientações de cuidado antes de você sair."
+          },
+          {
+            "p": "Preciso fazer avaliação antes?",
+            "r": "Sim. É nela que se decide o que faz sentido para o seu rosto, e só depois disso vem o procedimento."
+          },
+          {
+            "p": "Atendem aos sábados?",
+            "r": "Não. A clínica atende de segunda a sexta, das 10h às 19h, no Centro de Balneário Camboriú."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "Onde fica",
+        "imagem": "midia/f02.jpg"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Comece pela avaliação",
+        "lead": "Mande sua dúvida pelo WhatsApp e escolha o horário de segunda a sexta.",
+        "cta": "Conversar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ],
+  "wow": {
+    "assinatura": "gradient-mesh"
+  }
+}

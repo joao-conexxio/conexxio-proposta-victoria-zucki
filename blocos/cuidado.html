@@ -1,0 +1,52 @@
+<section class="blk-cd" id="cuidado">
+  <div class="wrap">
+    <div class="blk-cd__cab" data-reveal>
+      <p class="blk-cd__eyebrow">Antes, durante e depois</p>
+      <h2 class="blk-cd__titulo">O atendimento não termina quando a paciente sai da sala</h2>
+      <p class="blk-cd__lead" data-acende>Três cuidados que se repetem nas avaliações da clínica, contados por quem passou por eles.</p>
+    </div>
+    <ol class="blk-cd__lista">
+      <li class="blk-cd__item" data-reveal style="--d:0ms">
+        <span class="blk-cd__n">01</span>
+        <span class="blk-cd__icone"><!--icone:check--></span>
+        <h3>Produto lacrado e sala preparada</h3>
+        <p>Os produtos usados nos procedimentos são de procedência conhecida, e a sala é arrumada para cada atendimento.</p>
+        <blockquote>"Tudo feito com muito cuidado, com os produtos lacrados e de confiança." <cite>Lúrya, no Google</cite></blockquote>
+      </li>
+      <li class="blk-cd__item" data-reveal style="--d:90ms">
+        <span class="blk-cd__n">02</span>
+        <span class="blk-cd__icone"><!--icone:mao--></span>
+        <h3>Sem pressa na cadeira</h3>
+        <p>A Victória explica cada etapa e ajusta o ritmo ao conforto de quem está sendo atendida.</p>
+        <blockquote>"Com ela foi a experiência mais tranquila e indolor que já tive." <cite>Mariana, no Google</cite></blockquote>
+      </li>
+      <li class="blk-cd__item" data-reveal style="--d:180ms">
+        <span class="blk-cd__n">03</span>
+        <span class="blk-cd__icone"><!--icone:conversa--></span>
+        <h3>Uma mensagem nos dias seguintes</h3>
+        <p>Depois do procedimento, a própria Victória escreve para saber como a paciente está e fica disponível para as dúvidas.</p>
+        <blockquote>"Ela sempre manda mensagem para saber como estou." <cite>Lúrya, no Google</cite></blockquote>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-cd{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 6%,var(--bg))}
+.blk-cd__cab{max-width:46rem;margin-bottom:var(--sp-5)}
+.blk-cd__eyebrow{margin:0 0 var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--pulse)}
+.blk-cd__titulo{margin:0;font-family:var(--f-display);font-size:var(--t-h2);line-height:var(--lh-display);text-wrap:balance;color:var(--ink)}
+.blk-cd__lead{margin:var(--sp-3) 0 0;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-cd__lista{list-style:none;margin:0;padding:0;display:grid;gap:var(--sp-4)}
+.blk-cd__item{position:relative;padding:var(--sp-4);border-radius:var(--radius);background:var(--bg);border:1px solid color-mix(in srgb,var(--brand) 16%,transparent);overflow:hidden}
+.blk-cd__n{position:absolute;top:.4rem;right:1rem;font-family:var(--f-display);font-size:4.5rem;line-height:1;color:color-mix(in srgb,var(--pulse) 22%,transparent)}
+.blk-cd__icone{display:inline-flex;width:2.75rem;height:2.75rem;align-items:center;justify-content:center;border-radius:50%;background:color-mix(in srgb,var(--brand) 12%,transparent);color:var(--brand)}
+.blk-cd__icone svg{width:1.4rem;height:1.4rem}
+.blk-cd__item h3{margin:var(--sp-3) 0 var(--sp-2);font-family:var(--f-display);font-size:1.6rem;line-height:1.15;color:var(--ink)}
+.blk-cd__item p{margin:0;color:color-mix(in srgb,var(--ink) 75%,transparent)}
+.blk-cd__item blockquote{margin:var(--sp-3) 0 0;padding-top:var(--sp-3);border-top:1px solid color-mix(in srgb,var(--pulse) 30%,transparent);font-family:var(--f-display);font-size:1.15rem;font-style:italic;line-height:1.4;color:var(--brand)}
+.blk-cd__item cite{display:block;margin-top:.4rem;font-family:var(--f-body);font-style:normal;font-size:var(--t-label);letter-spacing:.04em;color:color-mix(in srgb,var(--ink) 58%,transparent)}
+@media (min-width:900px){
+  .blk-cd__lista{grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--sp-4)}
+}
+</style>
